@@ -5,9 +5,9 @@ Welcome to the IPL Exploratory Data Analysis onboarding project! This repository
 ## The Goal
 There are 10 issues (`#E1` through `#E10`) split into exactly three difficulty zones to give you a perfect learning progression:
 
-1. **🟢 Easy (#E1, #E2, #E3)**: Gentle introductions. Basic loading, column filtering, and checking data types using simple grouping.
-2. **🟡 Medium (#E4, #E5, #E6, #E7)**: Intermediate-level tasks. You will be filtering for specific stages of the tournament (Playoffs, Death Overs), merging multiple datasets, and creating dimensional plots (like nested bar charts).
-3. **🔴 Hard (#E8, #E9, #E10)**: Advanced challenges. These demand multi-step logic operations like stateful iterations for batting partnerships or deriving exact mathematical correlations (like Pearson correlation for scoring rates).
+1. **Easy (#E1, #E2, #E3)**: Gentle introductions. Basic loading, column filtering, and checking data types using simple grouping.
+2. **Medium (#E4, #E5, #E6, #E7)**: Intermediate-level tasks. You will be filtering for specific stages of the tournament (Playoffs, Death Overs), merging multiple datasets, and creating dimensional plots (like nested bar charts).
+3. **Hard (#E8, #E9, #E10)**: Advanced challenges. These demand multi-step logic operations like stateful iterations for batting partnerships or deriving exact mathematical correlations (like Pearson correlation for scoring rates).
 
 ## The Data
 We are using the IPL Dataset containing `matches.csv` and `deliveries.csv`. The dataset is included right here in the `data/` folder of this repository so you can load it instantly without downloading anything.
@@ -34,9 +34,9 @@ Open a Pull Request (PR) from your newly pushed branch into the main repository.
 
 ### Mandatory PR Description
 In the description box of your Pull Request, you **MUST** explicitly provide:
-1. 📸 **Visualization:** A clear screenshot of your generated plot.
-2. 💻 **Core Logic:** A copy/paste of the core logic code block you built to reach the result.
-3. 📝 **Insight Summary:** A markdown section titled `## Insight Summary` that interprets your findings.
+1. **Visualization:** A clear screenshot of your generated plot.
+2. **Core Logic:** A copy/paste of the core logic code block you built to reach the result.
+3. **Insight Summary:** A markdown section titled `## Insight Summary` that interprets your findings.
 
 ### Evaluation
 We will review your Pull Request based on the summary and logic provided in the description. Upon passing the review, your PR will be approved and closed, and you will instantly be awarded your points on the main leaderboard!
