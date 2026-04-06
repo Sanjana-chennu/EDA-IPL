@@ -12,16 +12,31 @@ There are 10 issues (`#E1` through `#E10`) split into exactly three difficulty z
 ## The Data
 We are using the IPL Dataset containing `matches.csv` and `deliveries.csv`. The dataset is included right here in the `data/` folder of this repository so you can load it instantly without downloading anything.
 
-## Crucial Rule For Passing
-Create a notebook under the notebooks folder and start solving the issues
-Open a Pull Request and put everything directly into the **PR Description**:
-1. A **screenshot** of your final generated visualisation.
-2. A copy/paste of the **core logic code block** you used to reach the result.
-3. A readable **markdown summary** synthesizing your findings and interpreting the plot.
+## Contribution Guidelines
+Follow these exact steps to complete an issue and get on the leaderboard!
 
-Simply writing code that executes is not enough. You must interpret the data to get on the leaderboard!
+### Workflow
+1. **Fork & Branch:** Fork this repository on GitHub. Clone your fork to your local machine, enter the repository folder, and create a new branch for the issue:
+   ```bash
+   git checkout -b fix-E1
+   ```
+2. **Code & Override:** Open your notebook in Google Colab (or locally) and complete the required analysis. Once finished, download the updated `.ipynb` file to your machine and overwrite the old specific notebook file inside the repository.
+3. **Commit & Push:** Stage your updated notebooks, commit your changes, and push the branch to your fork:
+   ```bash
+   git add notebooks/
+   git commit -m "Solved issue #E1"
+   git push origin fix-E1
+   ```
 
-## How to Get Started
-1. Read the `CONTRIBUTING.md` guidelines for the exact workflow steps.
-2. Pick an issue from the Issues tab.
-3. Code it out locally or in Colab, craft your visualization, write your markdown conclusion, and open your PR!
+### Open a Pull Request
+Open a Pull Request (PR) from your newly pushed branch into the main repository. 
+* Ensure you include the closing tag in the description (e.g., `Closes #E1`) so it automatically links to the issue!
+
+### Mandatory PR Description
+In the description box of your Pull Request, you **MUST** explicitly provide:
+1. 📸 **Visualization:** A clear screenshot of your generated plot.
+2. 💻 **Core Logic:** A copy/paste of the core logic code block you built to reach the result.
+3. 📝 **Insight Summary:** A markdown section titled `## Insight Summary` that interprets your findings.
+
+### Evaluation
+We will review your Pull Request based on the summary and logic provided in the description. Upon passing the review, your PR will be approved and closed, and you will instantly be awarded your points on the main leaderboard!
