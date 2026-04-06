@@ -1,25 +1,30 @@
 # EDA-IPL Junior Onboarding Repository
 
-Welcome to the IPL Exploratory Data Analysis onboarding project! This repository contains a curated set of challenges designed to teach fundamentals of data aggregation, pandas manipulation, and data visualization.
+Welcome to the IPL Exploratory Data Analysis onboarding project! This repository contains a curated set of challenges designed to teach the fundamentals of data aggregation, pandas manipulation, and data visualization.
 
 ## The Goal
-There are 10 issues (#E1 through #E10) split across four difficulty zones. By completing these, you'll learn how to wrangle complex sports datasets and communicate your insights visually.
+There are 10 issues (`#E1` through `#E10`) split into exactly three difficulty zones to give you a perfect learning progression:
 
-1. **Fundamentals (#E1, #E2)**: Basic loading and inspecting of constraints.
-2. **Match-level (#E3, #E4)**: Aggregating on the match entity.
-3. **Ball-level (#E5, #E6, #E7)**: Intermediate-level gotchas with per-delivery data.
-4. **Cross-cutting (#E8, #E9, #E10)**: Advanced sequences, state-tracking, and time-series evolution.
+1. **🟢 Easy (#E1, #E2, #E3)**: Gentle introductions. Basic loading, column filtering, and checking data types using simple grouping.
+2. **🟡 Medium (#E4, #E5, #E6, #E7)**: Intermediate-level tasks. You will be filtering for specific stages of the tournament (Playoffs, Death Overs), merging multiple datasets, and creating dimensional plots (like nested bar charts).
+3. **🔴 Hard (#E8, #E9, #E10)**: Advanced challenges. These demand multi-step logic operations like stateful iterations for batting partnerships or deriving exact mathematical correlations (like Pearson correlation for scoring rates).
 
 ## The Data
-We are using the [Kaggle IPL Dataset (2008-2020)](https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020) (or any equivalent variant containing `matches.csv` and `deliveries.csv`). The dataset is included in the `data/` folder of this repository so you can get started immediately.
+We are using the IPL Dataset containing `matches.csv` and `deliveries.csv`. The dataset is included right here in the `data/` folder of this repository so you can load it instantly without downloading anything.
 
 ## Crucial Rule For Passing
-> **Every single pull request MUST contain a google colab link and screenshots of the final visualisations and findings
+> **Pull Requests MUST be free of notebook files!**
 
-Simply running code that produces an output is **not enough**. To pass the evaluation and gain leaderboard points, you must summarize your findings in a readable markdown cell and explicitly reference the visual insights drawn from your plots.
+We want to keep this repository clean and avoid messy Jupyter Notebook (`.ipynb`) merge conflicts. When you solve an issue, **DO NOT upload your notebook** back to this repository. 
 
+Instead, open a Pull Request and put everything directly into the **PR Description**:
+1. A **screenshot** of your final generated visualisation.
+2. A copy/paste of the **core logic code block** you used to reach the result.
+3. A readable **markdown summary** synthesizing your findings and interpreting the plot.
+
+Simply writing code that executes is not enough. You must interpret the data to get on the leaderboard!
 
 ## How to Get Started
-1. Read the `CONTRIBUTING.md` guidelines.
+1. Read the `CONTRIBUTING.md` guidelines for the exact workflow steps.
 2. Pick an issue from the Issues tab.
-3. Solve the analysis, plot your data, state your conclusion, and open your PR!
+3. Code it out locally or in Colab, craft your visualization, write your markdown conclusion, and open your PR!
