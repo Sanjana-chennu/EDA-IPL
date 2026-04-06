@@ -1,4 +1,4 @@
-## E3: Toss Decision vs. Match Victory (Match-level)
+## E3: Toss Decision vs. Match Victory (Easy)
 
 A classic cricket debate: does winning the toss actually win you the match? 
 
@@ -11,4 +11,4 @@ Using `matches.csv`, cross-reference the toss winner, the toss decision, and the
 3. **Visualization:** Create a **stacked bar chart (or grouped bar chart)** showing the win percentage when choosing to bat first versus field first, broken down by season. Does the trend change over the years?
 
 ### Mandatory Submission Rule:
-Please provide the link to your Google Colab notebook in the issue comments. Conclude your notebook with a **Markdown cell**. What is the verdict? Explain your chart—did the advantage of fielding first increase in recent seasons, or does the toss simply not matter?
+Submit your solution via a Pull Request. In your PR description, include a screenshot of your generated visualisation, a copy of the core logic code cell, and a **Markdown** summary. What is the verdict? Explain your chart—did the advantage of fielding first increase in recent seasons, or does the toss simply not matter?

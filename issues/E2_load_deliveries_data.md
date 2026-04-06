@@ -1,4 +1,4 @@
-## E2: Load and Inspect the Deliveries Data (Fundamentals)
+## E2: Load and Inspect the Deliveries Data (Easy)
 
 The deliveries dataset is much larger than the matches dataset because it records the outcome of every single ball bowled in the IPL. 
 
@@ -12,4 +12,4 @@ Load `deliveries.csv` and validate its contents.
 4. **Visualization:** Create a **pie chart or bar plot** showing the overall distribution of the different dismissal types (bowled, caught, run out, lbw, etc.). Which type of dismissal is the most common?
 
 ### Mandatory Submission Rule:
-Please provide the link to your Google Colab notebook in the issue comments. Remember to end your notebook with a **Markdown cell** summarizing your findings. Specifically mention if you found anomalies in the maximum deliveries per match and describe the leading causes of dismissal indicated by your chart.
+Submit your solution via a Pull Request. In your PR description, include a screenshot of your generated visualisation, a copy of the core logic code cell, and a **Markdown** summary of your findings. Specifically mention if you found anomalies in the maximum deliveries per match and describe the leading causes of dismissal indicated by your chart.

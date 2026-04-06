@@ -1,4 +1,4 @@
-## E1: Load and Inspect the Match Data (Fundamentals)
+## E1: Load and Inspect the Match Data (Easy)
 
 Welcome to the first issue! Before any advanced analysis can begin, a Data Scientist must understand the structure, scale, and messiness of the data they are working with.
 
@@ -13,4 +13,4 @@ Load the `matches.csv` file into a Pandas DataFrame and perform an initial explo
 5. **Visualization:** Plot a **bar chart** showing the number of matches played per season to ensure the data loaded correctly and isn't skewed.
 
 ### Mandatory Submission Rule:
-Please provide the link to your Google Colab notebook. Ensure your notebook ends with a **Markdown cell** summarizing what you discovered (e.g., verifying how many seasons of data exist, which years had the most matches) and specifically referencing what your bar chart shows.
+Submit your solution via a Pull Request. In your PR description, include a screenshot of your generated visualisation, a copy of the core logic code cell, and a **Markdown** summary describing what you discovered (e.g., verifying how many seasons of data exist, which years had the most matches) and specifically referencing what your bar chart shows.
